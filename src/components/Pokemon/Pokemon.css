@@ -1,7 +1,7 @@
 .pokemon{
-    margin-top: 2rem;
+    margin-top: 4rem;
     flex-basis:20% ;
-    height: 200px;
+    height: 250px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -21,6 +21,7 @@
     max-height: 89%;
 }
 .pokemon:hover{
+   
     background-color: rgb(21, 21, 20);
     border-radius: 20px;
 }
