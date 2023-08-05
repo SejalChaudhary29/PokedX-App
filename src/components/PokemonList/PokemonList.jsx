@@ -47,7 +47,7 @@ const [prevUrl , setPrevUrl]= useState('')
     <div className='pokemon-list-wrapper'>
     
       <div className='pokemon-wrapper'>
-        {isLoading ? 'loadingggg' : pokemonList.map((p) => <Pokemon name={p.name} image={p.image} key={p.id}/>)}
+        {isLoading ? 'loadingggg' : pokemonList.map((p) => <Pokemon name={p.name} image={p.image} key={p.id} id={p.id}/>)}
         </div>
         <div className='controlls'>
           <button disabled= {prevUrl== null} onClick={() => setpokedexUrl(prevUrl)} >Prev</button>

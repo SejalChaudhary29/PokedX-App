@@ -12,6 +12,7 @@
     justify-content: space-evenly;
 }
 .controlls button{
+    margin-top: 4rem;
 padding:0.5rem 1rem ;
 margin-left: 1rem;
 background-color: tan;
@@ -20,5 +21,5 @@ border: none;
 font-weight: bold;
 }
 button:hover{
-    background-color: rgb(221, 205, 185);
+    background-color: rgb(219, 164, 97);
 }
